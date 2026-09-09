@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Web oficial de David Jiménez #37. Piloto de motociclismo, resultados, trayectoria y notas de prensa.">
+  <title>David Jiménez #37 | Piloto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Inicio"><span>DJ</span><b>37</b></a>
+    <nav aria-label="Navegación principal">
+      <a href="#piloto">Piloto</a>
+      <a href="#prensa">Prensa</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-lines" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">Piloto de motociclismo · España</p>
+        <h1>DAVID<br><span>JIMÉNEZ</span></h1>
+        <div class="hero-bottom">
+          <p>Velocidad, constancia y una trayectoria construida vuelta a vuelta.</p>
+          <a class="button" href="#prensa">Últimas noticias <span>↗</span></a>
+        </div>
+      </div>
+      <div class="number" aria-hidden="true">37</div>
+    </section>
+
+    <section class="profile section" id="piloto">
+      <div>
+        <p class="section-label">El piloto</p>
+        <h2>Competir para<br>seguir creciendo.</h2>
+      </div>
+      <div class="profile-text">
+        <p>David Jiménez compite en el MotoJunior FIM World Championship dentro de la categoría Stock, con MDR Competition y Yamaha España.</p>
+        <p>Con cinco años de experiencia en competición y un podio en la temporada 2026, su proyecto deportivo combina juventud, trabajo y proyección.</p>
+        <a class="text-link" href="https://www.instagram.com/davidj37_/" target="_blank" rel="noopener">Instagram @davidj37_ ↗</a>
+      </div>
+      <div class="stats" aria-label="Datos destacados">
+        <article><strong>37</strong><span>Dorsal</span></article>
+        <article><strong>1</strong><span>Podio 2026</span></article>
+        <article><strong>176K</strong><span>Comunidad</span></article>
+      </div>
+    </section>
+
+    <section class="press section" id="prensa">
+      <div class="section-heading">
+        <div><p class="section-label">Actualidad</p><h2>Notas de prensa</h2></div>
+        <p>Crónicas, resultados y novedades de cada fin de semana de competición.</p>
+      </div>
+      <div class="press-grid" id="press-grid"></div>
+    </section>
+
+    <section class="contact section" id="contacto">
+      <p class="section-label">Contacto</p>
+      <h2>¿Hablamos?</h2>
+      <p>Prensa, colaboraciones y propuestas de patrocinio.</p>
+      <a href="mailto:collabwdavidj37@gmail.com">collabwdavidj37@gmail.com <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer><span>© <span id="year"></span> David Jiménez</span><span>#DAVIDJ37</span></footer>
+  <script src="press-releases.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
